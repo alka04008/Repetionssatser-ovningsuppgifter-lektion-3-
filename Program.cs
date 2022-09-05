@@ -1,9 +1,16 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.Write("Är det fint väder?");
-string strNr = Console.ReadLine();
-if (strNr == "j" || strNr == "J")
-    Console.WriteLine("Vi går på picknick!");
-else if (strNr == "n" || strNr =="N")
-    Console.WriteLine("Vi stannar inne och läser en bok!");
-else
-    Console.WriteLine("Jag förstår inte, vänligen ge ett godtagbart svar (j/J eller n/N");
+﻿//Övningsuppgift 1
+int tal = 1;
+    while (tal <=  20)
+{
+Console.WriteLine(tal);
+tal = tal+1;
+}
+//Övningsuppgift 2
+int siffra;
+Console.WriteLine ("Skriv ett tal mellan 0-100");
+siffra = Convert.ToInt32(Console.ReadLine());
+    while (siffra <= 99)
+    {
+siffra = siffra+1;
+Console.WriteLine(siffra);
+    }
